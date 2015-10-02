@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DealOrNoDeal
 {
-    class Program
+    class DealOrNoDeal
     {
         private static object comments_title;
 
@@ -28,6 +28,8 @@ namespace DealOrNoDeal
                
             }
             Console.WriteLine(String.Join(",",boxes));
+
+            Console.WriteLine();
         }
     }
 }
