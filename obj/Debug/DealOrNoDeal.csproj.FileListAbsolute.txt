@@ -1,0 +1,6 @@
+c:\users\stoil\documents\visual studio 2015\Projects\DealOrNoDeal\DealOrNoDeal\bin\Debug\DealOrNoDeal.exe.config
+c:\users\stoil\documents\visual studio 2015\Projects\DealOrNoDeal\DealOrNoDeal\bin\Debug\DealOrNoDeal.exe
+c:\users\stoil\documents\visual studio 2015\Projects\DealOrNoDeal\DealOrNoDeal\bin\Debug\DealOrNoDeal.pdb
+c:\users\stoil\documents\visual studio 2015\Projects\DealOrNoDeal\DealOrNoDeal\obj\Debug\DealOrNoDeal.csprojResolveAssemblyReference.cache
+c:\users\stoil\documents\visual studio 2015\Projects\DealOrNoDeal\DealOrNoDeal\obj\Debug\DealOrNoDeal.exe
+c:\users\stoil\documents\visual studio 2015\Projects\DealOrNoDeal\DealOrNoDeal\obj\Debug\DealOrNoDeal.pdb
