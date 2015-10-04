@@ -6,9 +6,34 @@ using System.Threading.Tasks;
 
 namespace DealOrNoDeal
 {
-    class DealOrNoDeal
+
+
+    class Program
     {
-        ConsoleKeyInfo decision = Console.ReadKey();
+        static string removevalue = "";
+        static string[] valuesarray = new string[] { "1", "5", "10", "20", "50", "100", "200", "300", "500", "750", "1000", "2500", "5000", "7500", "10000", "12500", "15000", "25000", "50000", "75000", "100000" };
+        static string[] boxarray = new string[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21" };
+        static int average = 0;
+
+        public static void game1(int index3, Dictionary<int, string> boxes)
+        {
+            Printboxes(boxarray);
+
+
+
+            Openbox(index3, boxes, boxarray);
+            Printboxes(boxarray);
+
+
+            Openbox(index3, boxes, boxarray);
+            Printboxes(boxarray);
+
+
+            average = oferta(boxes);
+            Console.WriteLine("Deal or No Deal?");
+            Console.WriteLine("Press 1 for Deal :  Press 0 for No Deal");
+            
+            ConsoleKeyInfo decision = Console.ReadKey();
 
 
             if (decision.KeyChar == '1')
