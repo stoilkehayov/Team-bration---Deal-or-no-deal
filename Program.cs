@@ -8,7 +8,25 @@ namespace DealOrNoDeal
 {
     class DealOrNoDeal
     {
-        private static object comments_title;
+        ConsoleKeyInfo decision = Console.ReadKey();
+
+
+            if (decision.KeyChar == '1')
+            {
+                Console.WriteLine();
+                Console.WriteLine("Congratulations!!!");
+                Console.WriteLine("You won {0}$", average);
+                Environment.Exit(0);
+
+            }
+
+
+    Console.WriteLine();
+            Console.WriteLine("You refused the offer!");
+            
+            Console.WriteLine();
+        }
+
 
         static void Main()
         {
