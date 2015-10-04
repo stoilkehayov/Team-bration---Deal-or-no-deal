@@ -7,3 +7,6 @@ c:\users\stoil\documents\visual studio 2015\Projects\DealOrNoDeal\DealOrNoDeal\o
 C:\Users\Kala\Desktop\Lab\Team-bration---Deal-or-no-deal\Team-bration---Deal-or-no-deal\bin\Debug\DealOrNoDeal.exe.config
 C:\Users\Kala\Desktop\Lab\Team-bration---Deal-or-no-deal\Team-bration---Deal-or-no-deal\obj\Debug\DealOrNoDeal.exe
 C:\Users\Kala\Desktop\Lab\Team-bration---Deal-or-no-deal\Team-bration---Deal-or-no-deal\obj\Debug\DealOrNoDeal.pdb
+C:\Users\Y50\Documents\GitHub\Team-bration---Deal-or-no-deal\bin\Debug\DealOrNoDeal.exe.config
+C:\Users\Y50\Documents\GitHub\Team-bration---Deal-or-no-deal\obj\Debug\DealOrNoDeal.exe
+C:\Users\Y50\Documents\GitHub\Team-bration---Deal-or-no-deal\obj\Debug\DealOrNoDeal.pdb

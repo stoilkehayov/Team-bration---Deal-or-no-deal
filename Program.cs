@@ -51,8 +51,35 @@ namespace DealOrNoDeal
             
             Console.WriteLine();
         }
+        
 
 
+
+        public static void game(int index3, Dictionary<int, string> boxes)
+        {
+            Printboxes(boxarray);
+
+
+
+            Openbox(index3, boxes, boxarray);
+            Printboxes(boxarray);
+
+
+            Openbox(index3, boxes, boxarray);
+            Printboxes(boxarray);
+
+
+            Openbox(index3, boxes, boxarray);
+            Printboxes(boxarray);
+
+            average = oferta(boxes);
+            Console.WriteLine("Deal or No Deal?");
+            Console.WriteLine("Press 1 for Deal :  Press 0 for No Deal");
+
+
+
+
+        
         static void Main()
         {
             int[] boxes =
