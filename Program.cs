@@ -76,10 +76,27 @@ namespace DealOrNoDeal
             Console.WriteLine("Deal or No Deal?");
             Console.WriteLine("Press 1 for Deal :  Press 0 for No Deal");
 
+            ConsoleKeyInfo decision = Console.ReadKey();
+
+
+            if (decision.KeyChar == '1')
+            {
+                Console.WriteLine();
+                Console.WriteLine("Congratulations!!!");
+                Console.WriteLine("You won {0}$", average);
+                Environment.Exit(0);
+
+            }
+
+
+            Console.WriteLine();
+            Console.WriteLine("You refused the offer!");
+            Console.WriteLine("The game continues!");
+            Console.WriteLine();
+        }
 
 
 
-        
         static void Main()
         {
             int[] boxes =
