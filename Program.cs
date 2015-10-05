@@ -108,7 +108,25 @@ namespace DealOrNoDeal
             Console.WriteLine("The bank offer is: {0}", average);
             return average;
         }
+        public static void Printboxes(string[] boxarray)
+        {
 
+
+
+            foreach (var item in boxarray)
+            {
+                Console.Write("[{0}]", item);
+            }
+            Console.WriteLine();
+            Console.WriteLine();
+
+            Console.WriteLine("{0,10}{1,10}{2,10}{3,10}{4,10}", valuesarray[0], valuesarray[5], valuesarray[10], valuesarray[15], valuesarray[20]);
+            Console.WriteLine("{0,10}{1,10}{2,10}{3,10}", valuesarray[1], valuesarray[6], valuesarray[11], valuesarray[16]);
+            Console.WriteLine("{0,10}{1,10}{2,10}{3,10}", valuesarray[2], valuesarray[7], valuesarray[12], valuesarray[17]);
+            Console.WriteLine("{0,10}{1,10}{2,10}{3,10}", valuesarray[3], valuesarray[8], valuesarray[13], valuesarray[18]);
+            Console.WriteLine("{0,10}{1,10}{2,10}{3,10}", valuesarray[4], valuesarray[9], valuesarray[14], valuesarray[19]);
+
+        }
 
 
 
