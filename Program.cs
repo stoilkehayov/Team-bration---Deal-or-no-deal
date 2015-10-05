@@ -95,6 +95,22 @@ namespace DealOrNoDeal
             Console.WriteLine();
         }
 
+        public static int oferta(Dictionary<int, string> boxes)
+        {
+            average = 0;
+
+            foreach (var item in boxes)
+            {
+                average += int.Parse(item.Value);
+            }
+
+            average /= boxes.Count();
+            Console.WriteLine("The bank offer is: {0}", average);
+            return average;
+        }
+
+
+
 
 
         static void Main()
