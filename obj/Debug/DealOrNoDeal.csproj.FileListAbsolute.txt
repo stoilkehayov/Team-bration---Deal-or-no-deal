@@ -10,3 +10,6 @@ C:\Users\Kala\Desktop\Lab\Team-bration---Deal-or-no-deal\Team-bration---Deal-or-
 C:\Users\Y50\Documents\GitHub\Team-bration---Deal-or-no-deal\bin\Debug\DealOrNoDeal.exe.config
 C:\Users\Y50\Documents\GitHub\Team-bration---Deal-or-no-deal\obj\Debug\DealOrNoDeal.exe
 C:\Users\Y50\Documents\GitHub\Team-bration---Deal-or-no-deal\obj\Debug\DealOrNoDeal.pdb
+C:\Users\Stoil\Team-bration---Deal-or-no-deal\bin\Debug\DealOrNoDeal.exe.config
+C:\Users\Stoil\Team-bration---Deal-or-no-deal\obj\Debug\DealOrNoDeal.exe
+C:\Users\Stoil\Team-bration---Deal-or-no-deal\obj\Debug\DealOrNoDeal.pdb

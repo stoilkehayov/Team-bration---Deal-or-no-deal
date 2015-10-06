@@ -195,10 +195,34 @@ namespace DealOrNoDeal
 
             }
 
+        public static int Getbox(int index3)
+        {
+
+            Console.WriteLine();
+            Console.Write("{0,53}", "Choose box from 1 to 21: ");
+
+            while (true)
+            {
 
 
+                try
+                {
+                    index3 = int.Parse(Console.ReadLine());
+                    break;
 
-        static void Main()
+                }
+                catch (FormatException)
+                {
+
+                    index3 = 100;
+                    Console.WriteLine("{0,50}", "Invalid input! ");
+                    Console.WriteLine("{0,53}", "Enter box number again!");
+                }
+
+            }
+
+
+            static void Main()
         {
             int[] boxes =
             {
