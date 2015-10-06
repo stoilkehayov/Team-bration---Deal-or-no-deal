@@ -127,6 +127,73 @@ namespace DealOrNoDeal
             Console.WriteLine("{0,10}{1,10}{2,10}{3,10}", valuesarray[4], valuesarray[9], valuesarray[14], valuesarray[19]);
 
         }
+        public static int Getbox(int index3)
+        {
+
+            Console.WriteLine();
+            Console.Write("Choose box from 1 to 21: ");
+
+            while (true)
+            {
+
+
+                try
+                {
+                    index3 = int.Parse(Console.ReadLine());
+                    break;
+
+                }
+                catch (FormatException)
+                {
+
+                    index3 = 100;
+                    Console.WriteLine("Invalid input! ");
+                    Console.WriteLine("Enter box number again!");
+                }
+
+            }
+           
+            index3--;
+
+            int proverka = index3;
+            while ((proverka < 0) || (proverka > 20))
+            {
+                Console.WriteLine("Invalid input! ");
+                Console.WriteLine("Enter box number again!");
+
+                index3 = int.Parse(Console.ReadLine());
+                index3--;
+                proverka = index3;
+            }
+            return index3;
+        }
+        
+
+        public static void Openbox(int index3, Dictionary<int, string> boxes, string[] boxarray)
+        {
+            int box1 = 0;
+
+
+
+            try
+            {
+
+                box1 = Getbox(index3);
+                boxarray[box1] = "x";
+                Console.WriteLine("You opened box {0} : {1}", box1 + 1, boxes[box1]);
+                removevalue = boxes[box1];
+
+                for (int i = 0; i < valuesarray.Length; i++)
+                {
+                    if (removevalue == valuesarray[i])
+                    {
+                        valuesarray[i] = "XXX";
+                    }
+                }
+
+                boxes.Remove(box1);
+
+            }
 
 
 
