@@ -235,6 +235,22 @@ namespace DealOrNoDeal
 
             }
 
+            index3--;
+
+            int proverka = index3;
+            while ((proverka< 0) || (proverka > 20))
+            {
+                Console.WriteLine("Invalid input! ");
+                Console.WriteLine("Enter box number again!");
+
+                index3 = int.Parse(Console.ReadLine());
+                index3--;
+                proverka = index3;
+            }
+            return index3;
+        }
+
+
 
             static void Main()
         {
