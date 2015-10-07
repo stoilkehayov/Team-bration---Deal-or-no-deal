@@ -325,10 +325,23 @@ namespace DealOrNoDeal
         Openbox(index3, boxes, boxarray);
         Printboxes(boxarray);
 
+        Console.WriteLine();
+
+
+        Console.WriteLine("Game over");
+        Console.WriteLine("The remaining box is your price");
+        Console.Write("You win {0}$ !!!!!!", string.Join(" ", boxes.Values));
 
 
 
 
-    }
+
     }
 }
+
+
+
+
+    
+    
+
