@@ -315,6 +315,18 @@ namespace DealOrNoDeal
         game(index3, boxes);
         Console.Clear();
 
+        game1(index3, boxes);
+        Console.WriteLine("The game continues!");
+        game1(index3, boxes);
+        Console.WriteLine("The game continues!");
+
+        Printboxes(boxarray);
+
+        Openbox(index3, boxes, boxarray);
+        Printboxes(boxarray);
+
+
+
 
 
     }
