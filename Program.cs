@@ -278,7 +278,42 @@ namespace DealOrNoDeal
             boxes[i] = boxesList[i].ToString();
         }
 
+        Printboxes(boxarray);
 
+        Console.WriteLine();
+        Console.WriteLine("{0,48}", "Choose your box :");
+
+        try
+        {
+
+            guz = Getbox(index3);
+            boxarray[guz] = "Your Box";
+            Console.WriteLine("{0,48} {1}", "You choose box: ", guz + 1);
+
+
+
+        }
+
+        catch (KeyNotFoundException)
+        {
+            Console.WriteLine();
+            Console.WriteLine("Box already opened! ");
+            Console.WriteLine("Try Again!");
+            Console.WriteLine();
+            Openbox(index3, boxes, boxarray);
+
+        }
+
+        game(index3, boxes);
+        Console.Clear();
+        game(index3, boxes);
+        Console.Clear();
+        game(index3, boxes);
+        Console.Clear();
+        game(index3, boxes);
+        Console.Clear();
+        game(index3, boxes);
+        Console.Clear();
 
 
 
