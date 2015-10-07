@@ -271,12 +271,17 @@ namespace DealOrNoDeal
                 boxesList[index2] = boxesList[index];
                 boxesList[index] = temp;
             }
+        Dictionary<int, string> boxes = new Dictionary<int, string>();
 
-
-
-
-
-
+        for (int i = 0; i < boxesList.Count; i++)
+        {
+            boxes[i] = boxesList[i].ToString();
         }
+
+
+
+
+
+    }
     }
 }
