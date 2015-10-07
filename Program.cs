@@ -192,8 +192,22 @@ namespace DealOrNoDeal
                 }
 
                 boxes.Remove(box1);
+                catch (KeyNotFoundException)
+            {
+
+                Console.WriteLine();
+                Console.WriteLine("{0,53}", "Box already opened! ");
+                Console.WriteLine("{0,48}", "Try Again!");
+                Console.WriteLine();
+                Openbox(index3, boxes, boxarray);
 
             }
+
+
+
+        }
+    }
+
 
         public static int Getbox(int index3)
         {
