@@ -5,7 +5,7 @@ using System.Media;
 
 namespace DealOrNoDeal
 {
-    class Program
+    class DealOrNoDeal
     {
         static SoundPlayer Theme = new SoundPlayer("../../Theme.wav");
         static SoundPlayer phoneRing = new SoundPlayer("../../Ring.wav");
@@ -64,13 +64,14 @@ namespace DealOrNoDeal
                 Console.Clear();
                 deal.Play();
 
-                Console.WriteLine();
-                Console.WriteLine();
-                Console.WriteLine();
-                Console.WriteLine("{0,54}", "**** Congratulations!!! ****");
-                Console.WriteLine();
-                Console.WriteLine("{0,41}{1}$  **", "**   You won ", average);
-                Console.Write("\n\n\n\n\n\n                         ");
+                Console.WriteLine("\n\n");
+                Console.WriteLine("{0,47}", "You have taken the Deal!");
+                Console.WriteLine("\n\n\n\n\n");
+                Console.WriteLine("{0,36}{1}$  **", "**   You WON ", average);
+                Console.WriteLine("\n\n\n\n\n");
+                Console.WriteLine("{0,48}", "   * Congratulations!!! *   ");
+                Console.Write("\n\n\n\n\n\n\n                         ");
+                exitChar = Console.ReadKey();
                 Environment.Exit(0);
 
             }
@@ -354,9 +355,9 @@ namespace DealOrNoDeal
 
         static void Main()
         {
-            Console.WindowHeight = 56;
-            Console.BufferWidth = Console.WindowWidth = 67;
-            Console.BufferHeight = 100;
+           Console.WindowHeight = 56;
+           Console.BufferWidth = Console.WindowWidth = 67;
+           Console.BufferHeight = 100;
 
                int index3 = 0;
                
@@ -414,8 +415,8 @@ namespace DealOrNoDeal
                 Openbox(index3, boxes, boxArray);
 
             }
-  
-            game(index3,boxes);
+
+            game(index3, boxes);
             Console.Clear();
             game(index3, boxes);
             Console.Clear();
@@ -461,9 +462,11 @@ namespace DealOrNoDeal
 
 
             Console.WriteLine("{0,36} $", finalBoxValue);
-
+           
             Console.WriteLine();
             Console.WriteLine();
+            Console.Write("\n\n\n\n\n\n\n                                     ");
+            exitChar = Console.ReadKey();
 
         }
     }
