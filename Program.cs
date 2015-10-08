@@ -21,7 +21,7 @@ namespace DealOrNoDeal
         static int control = 0;
         static ConsoleKeyInfo exitChar = new ConsoleKeyInfo();
 
-        public static void game1(int index3, Dictionary<int, string> boxes)
+        public static void Game1(int index3, Dictionary<int, string> boxes)
         {
             if (tempProverka == 0)
             {
@@ -31,13 +31,13 @@ namespace DealOrNoDeal
                 Console.WriteLine("{0,52}", "- Now you must open 2 boxes! -");
                 Console.WriteLine();
 
-                Openbox(index3, boxes, boxArray);
+                OpenBox(index3, boxes, boxArray);
                 Printboxes(boxArray);
 
-                Openbox(index3, boxes, boxArray);
+                OpenBox(index3, boxes, boxArray);
                 Printboxes(boxArray);
 
-                average = oferta(boxes);
+                average = Offer(boxes);
                 Console.WriteLine();
                 Console.WriteLine();
                 Console.WriteLine("{0,55}", "DEAL             or             NO DEAL?");
@@ -93,10 +93,10 @@ namespace DealOrNoDeal
                 Console.WriteLine("{0,48}", "Incorrect Input!");
                 Console.WriteLine("\n\n");
                 tempProverka = 1;
-                game(index3, boxes);
+                Game(index3, boxes);
             }
         }
-        public static void game(int index3, Dictionary<int, string> boxes)
+        public static void Game(int index3, Dictionary<int, string> boxes)
         {
             
 
@@ -108,18 +108,18 @@ namespace DealOrNoDeal
                 Console.WriteLine("{0,49}", "- Now you must open 3 boxes! -");
                 Console.WriteLine();
 
-                Openbox(index3, boxes, boxArray);
+                OpenBox(index3, boxes, boxArray);
                 Printboxes(boxArray);
 
 
-                Openbox(index3, boxes, boxArray);
+                OpenBox(index3, boxes, boxArray);
                 Printboxes(boxArray);
 
 
-                Openbox(index3, boxes, boxArray);
+                OpenBox(index3, boxes, boxArray);
                 Printboxes(boxArray);
 
-                average = oferta(boxes);
+                average = Offer(boxes);
                 Console.WriteLine();
                 Console.WriteLine();
                 Console.WriteLine("{0,55}", "DEAL             or             NO DEAL?");
@@ -183,12 +183,12 @@ namespace DealOrNoDeal
                 Console.WriteLine("{0,48}","Incorrect Input!");
                 Console.WriteLine("\n\n");
                 tempProverka = 1;
-                game(index3, boxes);
+                Game(index3, boxes);
 
             }
         }
 
-        public static int oferta(Dictionary<int,string> boxes)
+        public static int Offer(Dictionary<int,string> boxes)
         {
             average = 0;
 
@@ -225,7 +225,7 @@ namespace DealOrNoDeal
         }
 
 
-        public static int Getbox(int index3)
+        public static int GetBox(int index3)
            {
             if (control == 0)
             {
@@ -290,7 +290,7 @@ namespace DealOrNoDeal
             }
             return index3;
         }
-        public static void Openbox(int index3,Dictionary<int,string>boxes, string[] boxarray)
+        public static void OpenBox(int index3,Dictionary<int,string>boxes, string[] boxarray)
         {
            int box1 = 0;
             
@@ -299,13 +299,13 @@ namespace DealOrNoDeal
             try
             {
                 
-                box1 = Getbox(index3);
+                box1 = GetBox(index3);
                 if (boxChoice == box1)
                 {
                     Console.WriteLine("\n{0,34}\n", "*");
                     Console.WriteLine("{0,46}", "You cannot open your box!");
                     Console.WriteLine("\n{0,34}\n", "*");
-                    Openbox(index3, boxes, boxarray);
+                    OpenBox(index3, boxes, boxarray);
                 }
 
                 if (boxChoice != box1)
@@ -338,7 +338,7 @@ namespace DealOrNoDeal
                 Console.WriteLine("{0,43}", "Box already opened! ");
                 Console.WriteLine("{0,38}", "Try Again!");
                 Console.WriteLine("\n{0,34}\n", "*");
-                Openbox(index3,boxes,boxarray);
+                OpenBox(index3,boxes,boxarray);
 
             }
 
@@ -393,7 +393,7 @@ namespace DealOrNoDeal
             try
             {
 
-                boxChoice = Getbox(index3);
+                boxChoice = GetBox(index3);
                 finalBoxValue = int.Parse(boxes[boxChoice]);
                 boxArray[boxChoice] = "Your Box";
                 Console.WriteLine();
@@ -412,28 +412,28 @@ namespace DealOrNoDeal
                 Console.WriteLine("Box already opened! ");
                 Console.WriteLine("Try Again!");
                 Console.WriteLine();
-                Openbox(index3, boxes, boxArray);
+                OpenBox(index3, boxes, boxArray);
 
             }
 
-            game(index3, boxes);
+            Game(index3, boxes);
             Console.Clear();
-            game(index3, boxes);
+            Game(index3, boxes);
             Console.Clear();
-            game(index3, boxes);
+            Game(index3, boxes);
             Console.Clear();
-            game(index3, boxes);
+            Game(index3, boxes);
             Console.Clear();
-            game(index3, boxes);
+            Game(index3, boxes);
             Console.Clear();
 
-            game1(index3, boxes);
+            Game1(index3, boxes);
             Console.WriteLine();
             Console.WriteLine("{0,50}", "-The game continues!-");
             Console.WriteLine("\n{0,40}\n", "*");
             Console.Clear();
 
-            game1(index3, boxes);
+            Game1(index3, boxes);
 
             thinking.Play();
             Console.WriteLine();
