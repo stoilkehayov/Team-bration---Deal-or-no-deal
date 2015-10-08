@@ -40,15 +40,9 @@ C:\Users\Stoil\AppData\Roaming\Skype\My Skype Received Files\DoND(1)\bin\Debug\D
 C:\Users\Stoil\AppData\Roaming\Skype\My Skype Received Files\DoND(1)\obj\Debug\DealOrNoDeal.csprojResolveAssemblyReference.cache
 C:\Users\Stoil\AppData\Roaming\Skype\My Skype Received Files\DoND(1)\obj\Debug\DealOrNoDeal.exe
 C:\Users\Stoil\AppData\Roaming\Skype\My Skype Received Files\DoND(1)\obj\Debug\DealOrNoDeal.pdb
-C:\Users\Y50\Desktop\DoND\DoND(1)\bin\Debug\DealOrNoDeal.exe.config
-C:\Users\Y50\Desktop\DoND\DoND(1)\bin\Debug\DealOrNoDeal.exe
-C:\Users\Y50\Desktop\DoND\DoND(1)\bin\Debug\DealOrNoDeal.pdb
-C:\Users\Y50\Desktop\DoND\DoND(1)\obj\Debug\DealOrNoDeal.csprojResolveAssemblyReference.cache
-C:\Users\Y50\Desktop\DoND\DoND(1)\obj\Debug\DealOrNoDeal.exe
-C:\Users\Y50\Desktop\DoND\DoND(1)\obj\Debug\DealOrNoDeal.pdb
-C:\Users\Stoil\Downloads\FINAL\bin\Debug\DealOrNoDeal.exe.config
-C:\Users\Stoil\Downloads\FINAL\bin\Debug\DealOrNoDeal.exe
-C:\Users\Stoil\Downloads\FINAL\bin\Debug\DealOrNoDeal.pdb
-C:\Users\Stoil\Downloads\FINAL\obj\Debug\DealOrNoDeal.csprojResolveAssemblyReference.cache
-C:\Users\Stoil\Downloads\FINAL\obj\Debug\DealOrNoDeal.exe
-C:\Users\Stoil\Downloads\FINAL\obj\Debug\DealOrNoDeal.pdb
+D:\PLaki\DoND(1)\bin\Debug\DealOrNoDeal.exe.config
+D:\PLaki\DoND(1)\bin\Debug\DealOrNoDeal.exe
+D:\PLaki\DoND(1)\bin\Debug\DealOrNoDeal.pdb
+D:\PLaki\DoND(1)\obj\Debug\DealOrNoDeal.csprojResolveAssemblyReference.cache
+D:\PLaki\DoND(1)\obj\Debug\DealOrNoDeal.exe
+D:\PLaki\DoND(1)\obj\Debug\DealOrNoDeal.pdb
