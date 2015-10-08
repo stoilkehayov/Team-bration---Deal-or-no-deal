@@ -422,13 +422,36 @@ namespace DealOrNoDeal
 
             ConsoleKeyInfo finalChar = Console.ReadKey();
 
+<<<<<<< HEAD
             Console.Clear();
             deal.Play();
             Console.WriteLine("\n\n\n\n\n\n");
             Console.WriteLine("{0,48}", "Your box contains:");
+=======
+        game1(index3, boxes);
+        Console.WriteLine("The game continues!");
+        game1(index3, boxes);
+        Console.WriteLine("The game continues!");
+
+        Printboxes(boxarray);
+
+        Openbox(index3, boxes, boxarray);
+        Printboxes(boxarray);
+
+        Console.WriteLine();
+
+
+        Console.WriteLine("Game over");
+        Console.WriteLine("The remaining box is your price");
+        Console.Write("You win {0}$ !!!!!!", string.Join(" ", boxes.Values));
+
+
+
+>>>>>>> 47049c2ef537c31344088c963904859788dafb1a
 
             Console.WriteLine("\n\n\n");
 
+<<<<<<< HEAD
             Console.WriteLine("\n{0,40}\n{0,40}\n{0,40}\n", ".");
             Console.WriteLine();
             Console.WriteLine();
@@ -451,5 +474,14 @@ namespace DealOrNoDeal
             Console.Write("{0,27}", " ");
 
         }
+=======
+>>>>>>> 47049c2ef537c31344088c963904859788dafb1a
     }
 }
+
+
+
+
+    
+    
+
